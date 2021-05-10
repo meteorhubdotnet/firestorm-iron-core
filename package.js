@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'meteorhubdotnet:iron-core',
+  name: 'meteorhubdotnet:firestorm-iron-core',
   summary: 'Fork of iron:core for Firestorm',
   version: '1.0.0',
   git: 'https://github.com/meteorhubdotnet/firestorm-iron-core'
@@ -23,7 +23,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('meteorhubdotnet:iron-core');
+  api.use('meteorhubdotnet:firestorm-iron-core');
   api.use('tinytest');
   api.use('test-helpers');
   api.add_files('test/iron_core_test.js');
