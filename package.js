@@ -1,7 +1,7 @@
 Package.describe({
   name: 'meteorhubdotnet:firestorm-iron-core',
   summary: 'Fork of iron:core for Firestorm',
-  version: '1.0.0',
+  version: '1.0.4',
   git: 'https://github.com/meteorhubdotnet/firestorm-iron-core'
 });
 
